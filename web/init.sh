@@ -1,6 +1,6 @@
 
 
-sudo /etc/init.d/gunicorn web.hello:myapp
+sudo /etc/init.d/gunicorn web.hello
 sudo ln -s /home/box/web/etc/hello.py   /etc/gunicorn.d/hello.py
 sudo /etc/init.d/gunicorn reload
 
