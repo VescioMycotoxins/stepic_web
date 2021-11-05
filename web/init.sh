@@ -4,6 +4,6 @@ sudo /etc/init.d/nginx restart
 
 
 sudo ln -s /home/box/web/etc/hello.py   /etc/gunicorn.d/hello.py
-sudo gunicorn app:/home/box/web/hello.py
+sudo gunicorn home/box/web/hello.py
 #sudo /etc/init.d/gunicorn restart
 #sudo /etc/init.d/mysql start
