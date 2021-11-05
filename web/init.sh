@@ -1,6 +1,6 @@
 
 
-sudo gunicorn -b 0.0.0.0:8080 web/hello
+sudo gunicorn -b 0.0.0.0:8080 web:hello
 sudo ln -s /home/box/web/etc/hello.py   /etc/gunicorn.d/hello.py
 sudo /etc/init.d/gunicorn restart
 
